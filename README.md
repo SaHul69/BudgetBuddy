@@ -1,8 +1,8 @@
 <div align="center">
-###Budget Buddy
-Personal Expense Tracker
-A PROJECT REPORT
-Submitted by
-Kola Sai Kumar
-Ace Engineering College
+### Budget Buddy
+## Personal Expense Tracker
+<p>A PROJECT REPORT</p>
+<p>Submitted by</p>
+<p>Kola Sai Kumar</p>
+<p>Ace Engineering College</p>
  </div>
