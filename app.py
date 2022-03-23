@@ -10,9 +10,9 @@ app = Flask(__name__)
 app.secret_key ='budgetbuddy'
 
 app.config['MYSQL_HOST'] = 'remotemysql.com'
-app.config['MYSQL_USER'] = 'VEuBGLb0Us'
-app.config['MYSQL_PASSWORD'] = "WCxSJVDEBC"
-app.config['MYSQL_DB'] = 'VEuBGLb0Us'
+app.config['MYSQL_USER'] = 'gSISjg7PrJ'
+app.config['MYSQL_PASSWORD'] = "7SFhNzOXoh"
+app.config['MYSQL_DB'] = 'gSISjg7PrJ'
 
 mysql = MySQL(app)
 
@@ -644,4 +644,4 @@ def logout():
         return redirect(url_for('homepage'))
     
 if(__name__ == '__main__'):
-    app.run(host="0.0.0.0",port=8080)
+    app.run(debug="true",host="0.0.0.0",port=8080)
